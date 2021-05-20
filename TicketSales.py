@@ -38,10 +38,10 @@ class TicketSales(object):
         self.clear_button.place(x=250, y=200)
 
         # X Border
-        self.border1 = Label(self.window, text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", bg="#9ccb3b")
-        self.border2 = Label(self.window, text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", bg="#9ccb3b")
-        self.border1.place(y=260)
-        self.border2.place(y=450)
+        self.border1 = Label(self.window, text="><(((*> <*)))>< ><(((*> <*)))>< ><(((*> <*)))><", bg="#9ccb3b")
+        self.border2 = Label(self.window, text="><(((*> <*)))>< ><(((*> <*)))>< ><(((*> <*)))><", bg="#9ccb3b")
+        self.border1.place(x=20,y=260)
+        self.border2.place(x=20,y=450)
 
         # Results
         self.amount_pay = Label(self.window, text="", bg="#346ab3")
